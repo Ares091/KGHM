@@ -1,0 +1,13 @@
+.fs-table-row {
+    font-size: 12px !important;
+    cursor: default;
+}
+
+.handbook-hvb-text, .handbook-hnbb-text {
+    color: var(--hb-nav-btn-text-color-1);
+    font-size: 12px !important;
+}
+
+.handbook-ddp-text {
+    font-size: 12px !important;
+}

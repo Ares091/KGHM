@@ -1,0 +1,194 @@
+:root{
+    --fs-table-head-foot-row-color-2: #073cc2;
+    --fs-table-head-foot-row-color-1: #0f3188;
+    --fs-table-row-color-1: #30384C;
+    --fs-table-row-color-2: #3c465f;
+    --fs-table-row-color-3: #343e56;
+    --fs-table-row-color-1-hover: #242c3f;
+}
+
+
+
+/* table old chess des */
+
+.fs-table-style-3 tbody > tr:nth-of-type(2n + 1) {
+    text-align: left;
+    background-color: var(--fs-table-row-color-2);
+}
+
+.fs-table-style-3 tbody > tr:nth-of-type(2n + 1) {
+    text-align: left;
+    background-color: var(--fs-table-row-color-2);
+}
+
+.fs-table-style-3 tbody > tr:nth-of-type(2n + 1) > .fs-table-row:first-child, .fs-table-style-3 tbody > tr:nth-of-type(2n + 1) > .fs-table-row:nth-of-type(2n) {
+    text-align: left;
+    background-color: var(--fs-table-row-color-3);
+}
+
+.fs-table-style-3 tbody > tr:nth-of-type(2n) > .fs-table-row:first-child, .fs-table-style-3 tbody > tr:nth-of-type(2n) > .fs-table-row:nth-of-type(2n) {
+    background-color: var(--fs-table-row-color-2);
+    border: 2px var(--hb-mdp-table-border-color-1) solid !important;
+    border-radius: 12px !important;
+}
+
+.fs-table-style-3 tbody > tr:nth-of-type(even) {
+    text-align: left;
+    background-color: var(--fs-table-row-color-1);
+}
+
+.fs-table-row:hover{
+    background: var(--fs-table-row-color-1-hover);
+    transform: none !important;
+}
+
+
+/* if disabled */
+
+/* .tr-disabled */
+
+.fs-table-style-3 tbody > tr.tr-disabled:nth-of-type(2n) > .fs-table-row:first-child, .fs-table-style-3 tbody > tr.tr-disabled:nth-of-type(2n) > .fs-table-row:nth-of-type(2n) {
+    background-color: #353535  !important;
+    border: 2px var(--hb-mdp-table-border-color-1) solid !important;
+    border-radius: 12px !important;
+}
+
+.fs-table-style-3 tbody > tr.tr-disabled:nth-of-type(even){
+    background-color: #3c3d3d !important;
+}
+
+.fs-table-style-3 tbody > tr.tr-disabled:nth-of-type(2n + 1) > .fs-table-row:first-child, .fs-table-style-3 tbody > tr.tr-disabled:nth-of-type(2n + 1) > .fs-table-row:nth-of-type(2n) {
+    text-align: left;
+    background-color: #3c3c3c;
+}
+
+.fs-table-style-3 tbody > tr.tr-disabled:nth-of-type(2n + 1) {
+    text-align: left;
+    background-color: #393939 !important;
+}
+
+
+tr.tr-disabled > th, tr.tr-disabled > td {
+    color: #b4b4b4 !important;
+}
+
+
+.td-row-1c-sync-true{
+    color: #c3eaff !important;
+}
+
+.td-row-1c-sync-false{
+    color: #ff4343 !important;
+}
+
+
+/* active */
+
+/* .fs-table-style-3 tbody > .handbook-ddp-br-active:nth-of-type(even){
+    background: #1537cf !important;
+} */
+
+/*table rows active mode */
+
+.fs-table-style-3 tbody > .handbook-ddp-br-active:nth-of-type(2n) > .fs-table-row:first-child, .fs-table-style-3 tbody > .handbook-ddp-br-active:nth-of-type(2n) > .fs-table-row:nth-of-type(2n){
+    background: #1537cf !important;
+}
+
+.fs-table-style-3 tbody > .handbook-ddp-br-active:nth-of-type(2n+1) > .fs-table-row:first-child, .fs-table-style-3 tbody > .handbook-ddp-br-active:nth-of-type(2n+1) > .fs-table-row:nth-of-type(2n) {
+    text-align: left;
+    background: #0625ad !important;
+}
+
+/* .fs-table-style-3 tbody > .handbook-ddp-br-active:nth-of-type(even):hover {
+    background: #0625ad !important;
+} */
+
+.handbook-ddp-br-active > .fs-table-row:hover {
+    background: #0625ad;
+}
+
+.fs-table-style-3 tbody > .handbook-ddp-br-active > td, .fs-table-style-3 tbody > .handbook-ddp-br-active > th {
+    outline: 1px #b0d9ff solid !important;
+    outline-offset: -3px;
+}
+
+
+
+/* delete */
+
+
+
+tr.table-tr-header-delete-mode > .fs-table-row:first-child, tr.table-tr-header-delete-mode:nth-of-type(2n + 1) > .fs-table-row:nth-of-type(2n + 1){
+    background-color: #a81b29 !important;
+}
+
+tr.table-tr-header-delete-mode:nth-of-type(2n + 1), tr.table-tr-header-delete-mode:nth-of-type(2n + 1) {
+    text-align: left;
+    background-color: #970e1b !important;
+}
+
+
+
+
+tr.table-tr-header-edit-mode > .fs-table-row:first-child, tr.table-tr-header-edit-mode:nth-of-type(2n + 1) > .fs-table-row:nth-of-type(2n + 1){
+    background-color: #0f72cf !important;
+}
+
+tr.table-tr-header-edit-mode:nth-of-type(2n + 1), tr.table-tr-header-edit-mode:nth-of-type(2n + 1) {
+    text-align: left;
+    background-color: #1f88ff !important;
+}
+
+
+
+tr.table-tr-delete-mode:hover > .fs-table-row:nth-of-type(2n), tr.table-tr-delete-mode:hover > .fs-table-row:first-child{
+    background: #492323 !important;
+    outline: 2px #701d1d solid;
+    outline-offset: -4px;
+}
+
+tr.table-tr-delete-mode:hover > .fs-table-row:nth-of-type(2n + 1) {
+    text-align: left;
+    background: #5c2323;
+    outline: 2px #a53131 solid;
+    outline-offset: -4px;
+}
+
+tr.table-tr-delete-mode > .fs-table-row:hover {
+    outline: 2px #ff0122 solid !important;
+    background: #880b1b !important;
+    outline-offset: -3px !important;
+}
+
+.fs-table-style-3 tbody > tr.handbook-ddp-br-active.table-tr-delete-mode:nth-of-type(2n) > .fs-table-row:first-child, 
+.fs-table-style-3 tbody > tr.handbook-ddp-br-active.table-tr-delete-mode:nth-of-type(2n) > .fs-table-row:nth-of-type(2n) {
+    background: #702323 !important;
+    outline: 2px #701d1d solid;
+    outline-offset: -4px;
+}
+
+.fs-table-style-3 tbody > tr.handbook-ddp-br-active.table-tr-delete-mode:nth-of-type(2n+1) > .fs-table-row:first-child, 
+.fs-table-style-3 tbody > tr.handbook-ddp-br-active.table-tr-delete-mode:nth-of-type(2n+1) > .fs-table-row:nth-of-type(2n) {
+    text-align: left;
+    background: #891414 !important;
+}
+
+/* tr.handbook-ddp-br-active.table-tr-delete-mode > .fs-table-row:nth-of-type(2n), tr.handbook-ddp-br-active.table-tr-delete-mode > .fs-table-row:first-child,
+tr.handbook-ddp-br-active.table-tr-delete-mode:nth-of-type(2n) > .fs-table-row:first-child{
+    background: #7c2e2e !important;
+    outline: 2px #701d1d solid;
+    outline-offset: -4px;
+} */
+
+tr.handbook-ddp-br-active.table-tr-delete-mode > .fs-table-row:nth-of-type(2n + 1) {
+    text-align: left;
+    background: #9e2222;
+    outline: 2px #a53131 solid;
+    outline-offset: -4px;
+}
+
+
+
+
+
+/* change */

@@ -1,0 +1,158 @@
+/* site pallete */
+:root{
+    --main-color: #084eff;
+    --secondary-color: #292929;
+
+    --text-c-0: #ffffff;
+    --text-c-1: #000;
+
+    --header-text-c-1: #fff;
+    
+    --theme-color-1: #ffffff;
+    --theme-color-2: #4278FF;
+    --theme-color-3: #0039ca;
+    --theme-color-4: #00288f;
+    --theme-color-5: #494D53;
+
+    /* бг сайта */
+    --site-background-color-1: #33363B;
+    /* бг шапки */
+    --hb-header-bg-color-1: #484D55;
+    /* бг вторых параметров */
+    --hb-second-settings-bg-color-1: #484D55;
+    /* бг панели подразделений */
+    --hb-department-panel-bg-color-1: #484D55;
+    /* бг панели таблицы сотрудников */
+    --hb-main-data-panel-bg-color-1: #484D55;
+    /* шапка панели таблицы сотрудников */
+    --hb-main-data-panel-header-color-1: #4278FF;
+    /* бг панели информации о сотруднике */
+    --hb-note-data-panel-bg-color-1: #484D55;
+
+    /* цвета кнопок панели подразделений */
+    /* цвет отдела */
+    --hb-departament-panel-main-div-color-1: #606874;
+    /* цвет подотдела */
+    --hb-departament-panel-sub-div-color-1: #707c90;
+    /* цвет подподотдела */
+    --hb-departament-panel-sub-sub-div-color-1: #7c8ca6;
+
+    /* цвет активной ячеейки отдела в левой панели */
+    --hb-department-dp-b-row-hover-color-1: #355aff;
+    --hb-department-dp-b-row-active-color-1: #0a26a5;
+    --hb-department-dp-b-row-active-color-1: #0a26a5;
+
+    --hb-department-dp-b-row-active-text-color-1: #e1e6ff;
+    
+
+    /* таблицы пользователей */
+    /* цвет обводки таблицы */
+    --hb-mdp-table-border-color-1: #484D55;
+
+     /* цвета  шапки */
+    --fs-table-head-foot-row-color-2: #073cc2;
+    --fs-table-head-foot-row-color-1: #0936a8;
+
+    --fs-table-head-foot-row-text-color-1: #ffffff;
+
+    /* цвета ячеек таблицы */
+    --fs-table-row-color-1: #30384C;
+    --fs-table-row-color-2: #3c465f;
+    --fs-table-row-color-3: #343e56;
+
+    --fs-table-row-color-1-hover: #242c3f;
+
+    /* цвета ячеек таблицы в режиме уааления */
+    --fs-table-head-delete-mode-color-1: #a81b29;
+    --fs-table-head-delete-mode-color-2: #970e1b;
+
+    /* цвета ячеек таблицы в режиме редактирования */
+    --fs-table-head-edit-mode-color-1: #0f72cf;
+    --fs-table-head-edit-mode-color-2: #1f88ff;
+
+    --fs-table-row-edit-mode-color-1: #0068f2;
+    --fs-table-row-edit-mode-color-2: #015bd1;
+
+    --fs-table-row-edit-mode-hover-color-1: #0039ca;
+    --fs-table-row-edit-mode-hover-color-2: #0625ad;
+
+    /* цвета активных ячеек таблицы */
+    --hb-table-row-active-color-1: #0625ad;
+    --hb-table-row-active-hover-color-1: #082dd1;
+
+    /* цвета активных ячеек */
+    --fs-table-row-active-color-1: ;
+
+    /* цвета кнопок */
+    --nav-btn-bg-color-1: #5e6570;
+    --nav-btn-bg-color-1-hover: #4384ff;
+    --nav-btn-bg-color-2: #2658D9;
+
+    --hb-nav-btn-text-color-1: #e9e9e9;
+    --hb-nav-btn-text-color-2: #e6e6e6;
+
+    /* цвета кнопок для админ. части */
+    --nav-btn-bg-add-client-color-1: #0db99d;
+    --nav-btn-bg-change-info-client-color-1: #044AB3;
+    --nav-btn-bg-change-info-client-color-2: #043c91;
+    --nav-btn-bg-delete-client-color-1: #E5776D;
+    --nav-btn-bg-action-client-color-1: #e09a3d;
+
+
+    /* Всплывающее окно */
+    /* цвет заголовка окна */
+    --popup-title-text-color-1: #fff;
+    /* бг заголовка окна */
+    --popup-title-bg-color-1: #618EFF;
+
+    --popup-bg-color-1: #767A80;
+    --popup-bg-color-2: #6d7480;
+    --popup-input-color-1: #464C55;
+
+    /* форма */
+
+    /* цвет label формы */
+    --form-label-color-1: #f2f2f2;
+
+    /* скроллбар */
+    --hb-w-scrollbar-track-bg-color-1: #0000002d;
+    --hb-w-scrollbar-thumb-color-1: #a4c8ffbd;
+
+    /* бордеры, оутлайны */
+    --nav-btn-list-b-category-header-color-1: #9e9e9e;
+    --hb-table-row-active-hover-color-1: #082dd1;
+
+    --hb-table-row-active-text-color-1: #b0d9ff;
+
+
+    /* font sizes */
+    --nav-btn-text-size: 15px;
+
+    /* elements sizes */
+    --nav-btn-1-width: 31px;
+    --nav-btn-1-height: 31px;
+    --block-border-radius: 12px;
+    --nav-btn-border-radius: 12px;
+}
+
+
+
+
+
+/* scrollbar */
+
+
+::-webkit-scrollbar-thumb {
+    background-color: #2571e4bd;    /* цвет плашки */
+    border-radius: 12px;       /* закругления плашки */
+    /* border: 3px solid var(--el-main-theme-subcolor-2);   */
+}
+
+
+/* html */
+
+
+.handbook-header-nav-btn-block:hover p, .handbook-second-header-nav-btn-block:hover p {
+    color: var(--theme-color-1);
+    transition: 0.3s ease-in-out;
+}
